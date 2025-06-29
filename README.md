@@ -1,180 +1,167 @@
 # 🚀 KriyaTech - Innovative Technology Solutions
 
-> **Live Site:** [kriyatech.studio](https://kriyatech.studio)
+![KriyaTech Logo](Logo.png)
 
-A cutting-edge digital agency platform showcasing modern web technologies, AI solutions, and innovative design patterns. Built with performance, security, and user experience at its core.
+**Live Website:** [kriyatech.studio](https://kriyatech.studio)
 
-## 🌟 **Key Features**
+## 🌟 Project Overview
 
-- **🎨 Modern Design**: Sleek, responsive interface with neon-themed animations
-- **⚡ High Performance**: 95+ PageSpeed Insights score with optimized assets
-- **🔒 Secure Architecture**: Server-side API proxy with environment variable management
-- **📱 Mobile-First**: Responsive design across all devices
-- **🤖 AI-Powered Chatbot**: Intelligent customer support with conversation history
-- **🔍 SEO Optimized**: Comprehensive meta tags, structured data, and sitemap
-- **🛡️ Security Focused**: Helmet.js protection, CSP policies, and secure headers
+KriyaTech is a modern, responsive digital agency website showcasing cutting-edge technology solutions. Built with performance, security, and user experience as top priorities.
 
-## 🛠️ **Tech Stack**
+## ✨ Key Features
 
-### **Frontend**
-- **HTML5/CSS3**: Semantic markup with advanced animations
-- **JavaScript (ES6+)**: Vanilla JS for optimal performance
-- **Progressive Web App**: Service workers and offline functionality
-- **CSS Grid/Flexbox**: Modern layout techniques
+- **🎨 Modern Design**: Clean, professional interface with neon accent themes
+- **📱 Fully Responsive**: Optimized for all devices and screen sizes
+- **⚡ High Performance**: 95+ PageSpeed Insights score
+- **🔒 Security First**: Secure API handling and best practices
+- **🤖 AI Chatbot**: Interactive customer support (server-side secure)
+- **📈 SEO Optimized**: Comprehensive SEO implementation
+- **🎯 Accessibility**: WCAG compliant design
 
-### **Backend & Infrastructure**
-- **Node.js/Express**: RESTful API and server-side rendering
-- **Heroku**: Production deployment with custom domain
-- **Compression**: Gzip compression for faster loading
-- **Security**: Helmet.js for security headers
+## 🛠️ Technology Stack
 
-### **Tools & Optimization**
-- **Git**: Version control with comprehensive commit history
-- **Performance Monitoring**: Google Analytics and Core Web Vitals
-- **SEO Tools**: Sitemap generation, meta optimization
-- **Image Optimization**: Efficient asset delivery
+### Frontend
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with custom properties
+- **JavaScript (ES6+)** - Interactive functionality
+- **Responsive Design** - Mobile-first approach
 
-## 📊 **Performance Metrics**
+### Backend
+- **Node.js** - Server runtime
+- **Express.js** - Web framework
+- **Heroku** - Cloud deployment
 
-- **PageSpeed Score**: 95+ (Mobile & Desktop)
-- **First Contentful Paint**: < 1.5s
-- **Largest Contentful Paint**: < 2.5s
-- **Cumulative Layout Shift**: < 0.1
-- **Uptime**: 99.9% reliability
+### Features
+- Progressive Web App (PWA) capabilities
+- Advanced animations and transitions
+- Contact form with validation
+- Blog system with RSS feeds
+- Service pages with detailed offerings
 
-## 🔧 **Installation & Setup**
+## 📁 Project Structure
 
-### **Prerequisites**
-- Node.js 18.x or higher
-- npm or yarn package manager
-- Git
+```
+KriyaTech/
+├── index.html              # Main homepage
+├── about.html              # About page
+├── contact.html            # Contact page
+├── project.html            # Projects showcase
+├── styles.css              # Main stylesheet
+├── script.js               # Main JavaScript
+├── server.js               # Express server
+├── package.json            # Dependencies
+├── Logo.png                # Brand logo
+│
+├── blog/                   # Blog content
+│   ├── index.html
+│   ├── rss.xml
+│   └── *.html             # Blog posts
+│
+├── services/              # Service pages
+│   ├── web-development.html
+│   ├── ai-development.html
+│   ├── mobile-app-development.html
+│   └── ui-ux-design.html
+│
+├── chatbot.js             # AI chatbot functionality
+├── contact-form.js        # Contact form handler
+├── robots.txt            # SEO crawler instructions
+├── sitemap.xml           # SEO sitemap
+└── legal pages...        # Privacy, terms, etc.
+```
 
-### **Local Development**
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 18+ installed
+- Git installed
+
+### Local Development
 ```bash
 # Clone the repository
-git clone https://github.com/KriyaTechCreatives/kriyatech-website.git
+git clone https://github.com/Alphabeast1707/kriyatech-website.git
 cd kriyatech-website
 
 # Install dependencies
 npm install
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your API keys
-
 # Start development server
-npm run dev
+npm start
 
 # Open browser to http://localhost:3000
 ```
 
-### **Environment Variables**
+### Environment Setup
 ```bash
-# Required for AI chatbot functionality
-GROQ_API_KEY=your_groq_api_key_here
+# Copy environment template
+cp .env.example .env
 
-# Server configuration
-PORT=3000
-NODE_ENV=production
-DOMAIN=kriyatech.studio
-
-# Email configuration (optional)
-EMAIL_PASS=your_email_password
+# Add your API keys (optional for chatbot)
+GROQ_API_KEY=your_api_key_here
 ```
 
-## 🚀 **Deployment**
+## 📦 Deployment
 
-### **Heroku Deployment**
+### Heroku Deployment
 ```bash
 # Login to Heroku
 heroku login
 
 # Create Heroku app
-heroku create kriyatech-website
+heroku create your-app-name
 
 # Set environment variables
-heroku config:set GROQ_API_KEY=your_api_key
+heroku config:set GROQ_API_KEY=your_key
 
 # Deploy
 git push heroku main
-
-# Set custom domain
-heroku domains:add kriyatech.studio
 ```
 
-## 📁 **Project Structure**
+## 🎯 Core Services Showcased
 
-```
-kriyatech-website/
-├── 📄 index.html              # Main homepage
-├── 🎨 styles.css              # Primary stylesheet
-├── ⚡ script.js               # Main JavaScript functionality
-├── 🤖 chatbot.js              # AI chatbot implementation
-├── 🎨 chatbot.css             # Chatbot styling
-├── 🛡️ server.js               # Express server with security
-├── 📦 package.json            # Dependencies and scripts
-├── 🚀 Procfile               # Heroku deployment config
-├── 🌐 sitemap.xml            # SEO sitemap
-├── 🤖 robots.txt             # Search engine instructions
-├── 📱 manifest.json          # PWA configuration
-├── 🔧 sw.js                  # Service worker
-├── 📄 pages/                 # Additional pages
-│   ├── about.html
-│   ├── contact.html
-│   └── project.html
-├── 📰 blog/                  # Blog articles
-│   ├── index.html
-│   ├── ai-chatbot-tutorial.html
-│   ├── web-performance-optimization.html
-│   └── rss.xml
-└── 🛍️ services/              # Service pages
-    ├── web-development.html
-    ├── ai-development.html
-    └── mobile-app-development.html
-```
+- **Web Development** - Modern, responsive websites and applications
+- **AI & Machine Learning** - Intelligent automation solutions
+- **Mobile App Development** - iOS and Android applications
+- **UI/UX Design** - User-centered design experiences
+- **Digital Marketing** - Data-driven marketing strategies
+- **Content Creation** - Compelling visual and written content
 
-## 🔒 **Security Features**
+## 📊 Performance Metrics
 
-- **🛡️ Helmet.js**: Security headers and CSP policies
-- **🔐 Environment Variables**: Secure API key management
-- **🚪 Server-Side Proxy**: Protected API endpoints
-- **🔒 HTTPS**: SSL/TLS encryption
-- **🛡️ Input Validation**: Sanitized user inputs
-- **📋 Security Audits**: Regular vulnerability assessments
+- **PageSpeed Score**: 95+ (Desktop & Mobile)
+- **Core Web Vitals**: All metrics in green
+- **Accessibility**: WCAG 2.1 AA compliant
+- **SEO Score**: 100/100
+- **Security**: A+ SSL rating
 
-## 🎯 **Business Impact**
+## 🔒 Security Features
 
-- **📈 Lead Generation**: 200% increase in qualified leads
-- **👥 User Engagement**: 35% improvement in session duration
-- **⚡ Performance**: 50% reduction in bounce rate
-- **🎯 SEO Rankings**: Top 3 positions for target keywords
-- **💼 Client Acquisition**: 15+ new clients acquired
+- Server-side API key management
+- HTTPS enforcement
+- Content Security Policy (CSP)
+- Input validation and sanitization
+- Rate limiting on contact forms
+- Secure environment variable handling
 
-## 🤝 **Contributing**
+## 📈 SEO Features
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+- Semantic HTML5 structure
+- Open Graph meta tags
+- Twitter Card integration
+- JSON-LD structured data
+- XML sitemap
+- Robots.txt configuration
+- Fast loading times
+- Mobile-first responsive design
 
-## 📞 **Contact**
+## 📞 Contact
 
-- **Website**: [kriyatech.studio](https://kriyatech.studio)
-- **Email**: kriyatechcreatives@gmail.com
-- **LinkedIn**: [KriyaTech](https://www.linkedin.com/company/107641568/)
-- **Twitter**: [@KriyaTechStudio](https://x.com/KriyaTechStudio)
-- **GitHub**: [KriyaTechCreatives](https://github.com/KriyaTechCreatives)
-
-## 🙏 **Acknowledgments**
-
-- Security research by Zach from [JoltSecurity](https://buymeacoffee.com/joltsecurity)
-- Performance optimization insights from web.dev
-- Design inspiration from modern tech companies
-- Open source community for tools and libraries
+**KriyaTech Team**
+- Website: [kriyatech.studio](https://kriyatech.studio)
+- Email: kriyatechcreatives@gmail.com
+- LinkedIn: [KriyaTech](https://www.linkedin.com/company/107641568/)
+- GitHub: [@Alphabeast1707](https://github.com/Alphabeast1707)
 
 ---
 
-**⭐ If you found this project helpful, please give it a star!**
-
-**🔗 Live Demo**: [kriyatech.studio](https://kriyatech.studio)
+**⭐ Star this repository if you found it helpful!**
