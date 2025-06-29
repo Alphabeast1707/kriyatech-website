@@ -1,0 +1,35 @@
+{
+  "name": "kriyatech-website",
+  "version": "1.0.0",
+  "description": "KriyaTech - Innovative Technology Solutions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'Static site - no build required'"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "compression": "^1.7.4",
+    "helmet": "^7.0.0",
+    "nodemailer": "^6.9.7",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "web development",
+    "AI solutions",
+    "mobile development",
+    "digital marketing",
+    "technology solutions",
+    "kriyatech"
+  ],
+  "author": "KriyaTech",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KriyaTechCreatives/kriyatech-website"
+  }
+}

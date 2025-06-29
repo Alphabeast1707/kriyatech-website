@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kriyatech.studio/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow certain paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Allow important files
+Allow: /favicon.ico
+Allow: /robots.txt
+Allow: /sitemap.xml
